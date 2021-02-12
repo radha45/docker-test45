@@ -49,10 +49,10 @@ import pymysql
 # MYSQL_DATABASE_DB = 'junodb'
 # MYSQL_DATABASE_HOST = 'junodb.c435hsq53dfq.us-east-1.rds.amazonaws.com'
 
-MYSQL_DATABASE_USER = 'radha'
-MYSQL_DATABASE_PASSWORD = 'Radha@45'
-MYSQL_DATABASE_DB = 'junodb'
-MYSQL_DATABASE_HOST = 'localhost'
+MYSQL_DATABASE_USER = 'admin'
+MYSQL_DATABASE_PASSWORD = 'Radha456'
+MYSQL_DATABASE_DB = 'juno'
+MYSQL_DATABASE_HOST = 'eadha-docker.cutn3y51xkog.us-west-2.rds.amazonaws.com'
 from pymysql import cursors
 
 def db_conncetion():

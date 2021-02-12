@@ -4,6 +4,8 @@ import boto3
 import sys
 import os
 from dbconnection import get_crendentails
+import socket
+socket.getaddrinfo('eadha-docker.cutn3y51xkog.us-west-2.rds.amazonaws.com', 3306)
 
 pp = pprint.PrettyPrinter(indent=1)
 policy = { "jk": {
